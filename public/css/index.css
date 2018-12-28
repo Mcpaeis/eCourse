@@ -1,0 +1,42 @@
+body{
+	margin: auto;
+	background-image: url("../images/r.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+	display: block;
+	background: #000;
+	opacity: 0.69;
+	text-align: center;
+	margin: auto;
+}
+#description{
+	text-align: left;
+}
+#description p{
+	font: 1.5em Tahoma;
+}
+#message{
+	padding-top: 1em;
+}
+#message span{
+	font: 5em Tahoma;
+}
+#login{
+	margin-top: 100px;
+}
+.login_input>span input{
+	padding: 0.5em;
+	min-width: 300px;
+	text-align: center;
+	font: 1.5em Tahoma;
+}
+#login h2{
+	
+}
+.login{
+	width: 60%;
+	margin-left: 20%;
+}

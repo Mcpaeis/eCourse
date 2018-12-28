@@ -1,0 +1,71 @@
+body{
+	margin: auto;
+	background-image: url("../images/r.jpg");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#container{
+	display: block;
+	background: #000;
+	opacity: 0.69;
+	text-align: center;
+	width: 100%;
+	min-height: 100%;
+	margin: auto;
+}
+#description{
+	text-align: left;
+}
+#description p{
+	font: 1.5em Tahoma;
+}
+#message{
+	padding-top: 1em;
+}
+#success_message{
+	background-color: red;
+	width: 100%;
+	padding: 0.5em;
+	color: white;
+	font: 2em Tahoma;
+}
+#success_message a{
+	color: white;
+}
+#success_message a:visited{
+	color: white;
+}
+#message span{
+	font: 5em Tahoma;
+}
+#login{
+	margin-top: 55px;
+}
+.login_input>span input{
+	padding: 0.5em;
+	min-width: 300px;
+	text-align: center;
+	font: 1.5em Tahoma;
+}
+@media only screen and (max-width: 600px){
+	.login_input>span input{
+		padding: 0.5em;
+		min-width: 300px;
+		text-align: center;
+		font: 1.5em Tahoma;
+	}
+	.login{
+		float: left;
+	}
+	.login_input{
+		float: left;
+	}
+}
+#login h2{
+	
+}
+.login{
+	width: 60%;
+	margin-left: 20%;
+}

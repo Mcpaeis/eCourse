@@ -1,0 +1,187 @@
+body{
+	background-color: #ccc;
+}
+#welcome span{
+	font: 3em Tahoma;
+	font-style: italic;
+}
+#welcome{
+	
+}
+#end{
+	width: 100%;
+	background-color: grey;
+	margin: auto;
+	margin-bottom: -10px;
+}
+#end1{
+	width: 100%;
+	padding: 2em;
+}
+article{
+	width: 100%;
+	margin: auto;
+	padding: 2em;
+	margin-top: -50px;
+}
+section{
+	width: 100%;
+	margin: auto;
+}
+footer{
+	padding: 1em;
+}
+#picture img{
+	height: 100px;
+	width: 100px;
+}
+#picture{
+
+}
+.jumbotron-custom{
+	text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  min-height: 70px;
+  color: inherit;
+  background-color: #eee;
+}
+#chat_questions{
+	margin-top: 5px;
+}
+.panel_body_chat{
+	height: 450px;
+}
+#posts{
+	height: 340px;
+	margin-bottom: 10px;
+	overflow-y: auto;
+	background-color: red;
+	padding: 1em;
+}
+#inputbox{
+	background-color: green;
+	margin: 5px;
+	height: 100px;
+	background-position: fixed;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+#inputbox > input{
+	box-shadow: 1px 1px 1px 1px;
+	padding: 0.1em;
+	font: 1em Tahoma; 
+}
+#inputbox textarea{
+	height: 90px;
+	padding: 0.5em;
+	font: 1em Tahoma;
+	width: 80%;
+	resize: none;
+	box-shadow: 1px 1px 1px;
+}
+#online{
+	min-height: 100px;
+	background-color: orange;
+	max-height: 200px;
+	overflow-y: auto;
+}
+#events{
+	min-height: 100px;
+	background-color: green;
+	max-height: 200px;
+	overflow-y: auto;
+}
+#assignments{
+	min-height: 100px;
+	background-color: grey;
+	max-height: 200px;
+	overflow-y: auto;
+}
+#commands{
+	background-color: green;
+	height: 500px;
+	overflow-y: scroll;
+}
+#chat{
+	background-color: yellow;
+	min-height: 500px;
+}
+#notifs{
+	background-color: violet;
+	height: 500px;
+}
+#outline{
+	width: 100%;
+	background-color: green;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+#outline_display{
+	background-color: red;
+}
+#outline_add{
+	background-color: white;
+}
+#outline_add span input{
+	width: 100%;
+}
+#displayRed1{
+	display: none;
+}
+#displayRed2{
+	display: none;
+}
+#displayRed3{
+	display: none;
+}
+#displayRed4{
+	display: none;
+}
+#displayRed5{
+	display: none;
+}
+#displayRed6{
+	display: none;
+}
+#displayRed7{
+	display: none;
+}
+#displayRed8{
+	display: none;
+}
+#displayRed9{
+	display: none;
+}
+#displayRed{
+	padding: 1em;
+}
+#displayRed input{
+	margin-top: 10px;
+	width: 100%;
+}
+#materials{
+	background-color: yellow;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 100%;
+}
+#announcements{
+	margin-top: 20px;
+}
+#announcements textarea{
+	width: 100%;
+	width: fixed;
+}
+#ta{
+	font: 1.2em Tahoma;
+	text-align: center;
+}
+#students{
+	padding: 1.0em;
+}
+#course{
+	text-align: center;
+	padding: 1.0em;
+}
